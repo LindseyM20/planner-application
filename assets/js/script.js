@@ -1,22 +1,19 @@
 $(document).ready(function () {
 
-
-  var currentTime = (moment().format("HH"));
-  console.log(currentTime);
-
+  // Current day/date display
   $("#currentDay").html(moment().format("dddd, MMMM Do YYYY"));
-  
 
+  var currentTime = 14
+  // (moment().format("HH"));
+
+  // Pull from local storage and print saved data on time blocks
   for (var i = 8; i < 19; i++) {
     $("#time-" + i).val(localStorage.getItem(i));
   }
 
-  // function that's comparing time of block to current time to determine color (past, present, and future)
+  // This compares time of block to current time to determine color (past, present, or future)
   $(".form-control").each(function() {
     var time = $(this).attr("data-time");
-
-    // console.log(time);
-    // console.log(currentTime);
 
     if (time < currentTime) {
       $(this).addClass("past");
@@ -39,6 +36,4 @@ $(document).ready(function () {
     localStorage.setItem(time, value);
 
   })
-
-
 })
