@@ -11,7 +11,9 @@ https://lindseym20.github.io/planner-application/
 
 ## Description:
 
-Here you will find files for a dynamic application that will run in the browser to generate a random password for the user. The program takes in several inputs, confirming whether the user would like to include uppercase letters, lowercase letters, numbers, and/or special characters and then prompting the user for their desired password character length. The generator accounts for uncooperative users, reprompting them for valid inputs. This application features dynamically updated HTML and CSS driven by JavaScript, rolled into a user interface that is clean and mobile responsive.
+Here you will find files for a simple calendar application that allows the user to save events for each hour of the day. This app will run in the browser and save the user's input for later reference.
+
+The JavaScript and JQuery functionality lends dynamic CSS styling as well as access to local storage, so that the user's entered content persists when the page is refreshed. The date and time are kept current using the Moment.js library.
 
 
 ## Installation:
@@ -21,17 +23,24 @@ N/A
 
 ## Usage Instructions:
 
-To use this program, use your browser to go to https://lindseym20.github.io/Random-Password-Generator/
+To use this program, use your browser to go to https://lindseym20.github.io/planner-application/
 
-Click on "Generate Password" and follow the prompts.
+Type in the text fields and click the save button. 
 
-![Day Planner in Browser](https://drive.google.com/file/d/15uwC95hjPWpujos224T44hR-ATJp-mMf/view.gif)
+![Day Planner in Browser](./assets/planner.gif)
 
 
 ## Credits:
 
 Thank you to my great support system of peers, TAs, tutor, and instructors through the U of M Coding Bootcamp!
 
+In particular:
+
+https://github.com/dfkestner
+
+https://github.com/aanderson120
+
+https://github.com/b-audette
 
 ## License:
 
