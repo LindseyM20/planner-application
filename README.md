@@ -44,5 +44,5 @@ https://github.com/b-audette
 
 ## License:
 
-N/A
+The Unlicense
 
